@@ -1,0 +1,221 @@
+body{
+	font-family: "Poppins", sans-serif !important;
+}
+
+img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
+      section {
+        scroll-margin-top: 80px !important; /* or whatever your header height is */
+        }
+      /*! This file is auto-generated */
+      .wp-block-button__link {
+        color: #fff;
+        background-color: #32373c;
+        border-radius: 9999px;
+        box-shadow: none;
+        text-decoration: none;
+        padding: calc(0.667em + 2px) calc(1.333em + 2px);
+        font-size: 1.125em;
+      }
+      .wp-block-file__button {
+        background: #32373c;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload),
+    .e-con.e-parent:nth-of-type(n + 4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+      background-image: none !important;
+    }
+
+    .header {
+      border-radius: 0 0 5px 5px;
+    }
+    .iconmenu{
+      height: 300px !important;
+      width: 50px !important;
+    }
+
+    .donate-btn {
+      background-color: rgba(235, 154, 88, 0.885) !important;
+      border: none !important;
+    }
+
+    a {
+      border-bottom: none !important;
+    }
+
+    .nav-hover {
+      height: 30px !important;
+      margin-top: 25px !important;
+    }
+
+    .nav-hover:hover {
+      color: orange !important;
+      border-bottom: 1px solid black !important;
+      height: 30px !important;
+    }
+
+    @media screen and (max-height: 1024px) {
+
+      .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+      }
+    }
+
+    @media screen and (max-height: 640px) {
+
+      .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(.e-no-lazyload),
+      .e-con.e-parent:nth-of-type(n + 2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+        background-image: none !important;
+      }
+      .donate-btn{
+				width: 90px !important;
+		  }
+		  .span{
+			width: 65px !important;
+			font-size: 10px !important;
+			margin-left: -10px !important;
+		  }
+    }
+    @media only screen and (max-width: 767px) {
+			.elementor-element.elementor-element-67a7443 .eael-filterable-gallery-item-wrap {
+				width: 100%;
+			}
+			.donate-btn{
+				width: 90px !important;
+		  }
+		  .span{
+			width: 65px !important;
+			font-size: 10px !important;
+			margin-left: -10px !important;
+		  }
+		}
+
+
+
+    .instagram-media.custom-instagram {
+        background: #fff;
+        border: 0;
+        border-radius: 3px;
+        box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+        margin: 1px;
+        max-width: 540px;
+        min-width: 326px;
+        padding: 0;
+        width: calc(100% - 2px);
+      }
+      
+      .instagram-wrapper {
+        padding: 16px;
+      }
+      
+      .instagram-link {
+        background: #ffffff;
+        line-height: 0;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+      }
+      
+      .instagram-avatar-placeholder {
+        background-color: #f4f4f4;
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        margin-right: 14px;
+        flex-shrink: 0;
+      }
+      
+      .instagram-info-placeholder {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        justify-content: center;
+      }
+      
+      .line {
+        background-color: #f4f4f4;
+        border-radius: 4px;
+        height: 14px;
+        margin-bottom: 6px;
+        width: 100px;
+      }
+      
+      .line.short {
+        width: 60px;
+      }
+      
+      .instagram-thumbnail {
+        padding: 19% 0;
+      }
+      
+      .instagram-icon {
+        display: block;
+        height: 50px;
+        margin: 0 auto 12px;
+        width: 50px;
+      }
+      
+      .instagram-text {
+        padding-top: 8px;
+        color: #3897f0;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 550;
+        line-height: 18px;
+      }
+      
+      .instagram-meta-placeholder {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+      }
+      
+      .line.wide {
+        width: 224px;
+      }
+      
+      .line.mid {
+        width: 144px;
+      }
+      
+      .instagram-caption {
+        color: #c9c8cd;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        margin-bottom: 0;
+        margin-top: 8px;
+        overflow: hidden;
+        padding: 8px 0 7px;
+        text-align: center;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      
+      .caption-link {
+        color: #c9c8cd;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      
+      
+      h1 {
+        color: aliceblue !important;
+        font-size: 32px !important;
+    }
+    

@@ -1,0 +1,285 @@
+
+
+
+*{
+	font-family: "Poppins", sans-serif !important;
+
+}
+body{
+	font-family: "Poppins", sans-serif !important;
+}
+section {
+	scroll-margin-top: 80px !important; /* or whatever your header height is */
+  }
+img.wp-smiley,
+		img.emoji {
+			display: inline !important;
+			border: none !important;
+			box-shadow: none !important;
+			height: 1em !important;
+			width: 1em !important;
+			margin: 0 0.07em !important;
+			vertical-align: -0.1em !important;
+			background: none !important;
+			padding: 0 !important;
+		}
+		.ha-slick-img {
+			pointer-events: none;
+		  }
+		  
+		  
+.header{
+	border-radius: 0 0 5px 5px;
+	font-family: "Poppins", sans-serif !important;
+}
+.donate-btn{
+	background-color: rgb(246 158 87 / 89%) !important;
+	border: none !important;
+}
+a{
+	border-bottom: none !important;
+}
+
+.nav-hover{
+	height: 30px !important;
+	margin-top: 25px !important;
+}
+.nav-hover:hover{
+	color: orange !important;
+	border-bottom: 1px solid black !important;
+	height: 30px !important;
+}
+        .wp-block-button__link {
+			color: #fff;
+			background-color: #0c6dce;
+			border-radius: 9999px;
+			box-shadow: none;
+			text-decoration: none;
+			padding: calc(.667em + 2px) calc(1.333em + 2px);
+			font-size: 1.125em
+		}
+
+		.wp-block-file__button {
+			background: #32373c;
+			color: #fff;
+			text-decoration: none
+		}
+		.input-group .input-group-text,
+		.input-group .form-control,
+		.input-group textarea.form-control {
+		  height: 20px;
+		}
+	  
+		/* Fixed width and alignment for icons */
+		.input-group .input-group-text {
+		  width: 25px;
+		  border-radius: 7px 0 0 7px !important;
+		  padding: 0;
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		}
+		/* Input and textarea box radius */
+		.input-group .form-control,
+		.input-group textarea.form-control {
+		  border-radius: 0px 7px 7px 0 !important;
+		  color: black !important;
+		  
+		}
+		textarea.form-control{
+			color: black !important;
+		}
+		input.form-control::placeholder{
+			
+			color: gray !important; /* Change this to your desired color */
+			opacity: 1 !important; /* Optional: ensures the color is solid */
+		}
+		textarea.form-control::placeholder {
+			color: gray; /* Change this to your desired color */
+			opacity: 1; /* Optional: ensures the color is solid */
+		  }
+		  
+		/* Textarea height (larger message box) */
+		#message {
+		  height: 120px;
+		}
+
+		@media screen and (max-height: 1024px) {
+
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+				
+			}
+			
+		}
+
+		@media screen and (max-height: 640px) {
+
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+			.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+				background-image: none !important;
+			}
+		}
+
+		.form-label
+		{
+			font-size: 14px !important;
+		}
+		
+		.form-control{
+			border: 0 !important;
+
+		}
+		.submit-btn{
+			background-color: rgba(244, 151, 75, 0.885) !important;
+			border-radius: 5px !important;
+			color: black !important;
+		}
+
+		.input-group-text {
+			margin-top: 7px !important;
+			border: 0 !important;
+			background: none !important;
+			/* height: 30px !important; */
+			width: 20px !important;
+			margin-left: 8px !important;
+			font-size: 15px !important;
+		}
+		.input-group{
+			border: solid 1px black !important;
+			height: 35px !important;
+			border-radius: 3px !important;
+		}
+		.message-btn{
+			border: solid 1px black !important;
+			border-radius: 3px !important;
+		}
+		.ha-slick-item{
+			height: 550px !important;
+		}
+		.ha-slick-img{
+			height: 550px !important;
+			width: 500vh !important;
+		}
+		.font-s{
+			font-size: 14px !important;
+		}
+		.head-s{
+			font-size: 40px !important;
+		}
+
+		input.form-control:hover,
+		textarea.form-control:hover,
+		input.form-control:focus,
+		textarea.form-control:focus {
+		  box-shadow: none;
+		  border-color: #ced4da; /* default border color */
+		}
+	  
+		.input-group-text {
+		  background-color: #f8f9fa;
+		}
+
+
+		.card-container {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 30px;
+			justify-content: center;
+			align-items: center;
+		  }
+		  
+		  .card {
+			width: 100%;
+			max-width: 350px; /* Or whatever width your Elementor cards use */
+			background: #fff;
+			border-radius: 12px;
+			overflow: hidden;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			display: flex;
+			flex-direction: column;
+			transition: transform 0.3s ease;
+		  }
+		  
+		  .card:hover {
+			transform: translateY(-5px);
+		  }
+		  
+		  .card img {
+			width: 100%;
+			height: 200px;
+			object-fit: cover;
+		  }
+		  
+		  .card-content {
+			padding: 15px;
+			flex-grow: 1;
+		  }
+		  
+		  .see-more-btn {
+			display: block;
+			margin: 10px auto 20px;
+			padding: 10px 20px;
+			background-color: #007BFF;
+			color: white;
+			border-radius: 6px;
+			text-decoration: none;
+			transition: background 0.3s ease;
+			text-align: center;
+		  }
+		  
+		  .see-more-btn:hover {
+			background-color: #0056b3;
+		  }
+		  
+		  .qodef-qi-button.qodef-html--link {
+			color: orange !important;
+		}
+		
+		.qodef-qi-button.qodef-html--link:hover {
+			color: black !important;
+		}
+		
+		@media only screen and (max-width: 2399px) {
+			.elementor-element.elementor-element-67a7443 .eael-filterable-gallery-item-wrap {
+				width: 33.333333333333%;
+			}
+		}
+
+		@media only screen and (max-width: 1024px) {
+			.elementor-element.elementor-element-67a7443 .eael-filterable-gallery-item-wrap {
+				width: 50%;
+			}
+		}
+
+		@media only screen and (max-width: 767px) {
+			.elementor-element.elementor-element-67a7443 .eael-filterable-gallery-item-wrap {
+				width: 100%;
+			}
+			.donate-btn{
+				width: 90px !important;
+		  }
+		  .span{
+			width: 65px !important;
+			font-size: 10px !important;
+			margin-left: -10px !important;
+		  }
+		}
+
+		
+		h1 {
+			color: aliceblue !important;
+			font-size: 32px !important;
+		}
+		
+
+		#contact{
+			background-image: url('bg.png'); background-size: cover; background-position: center;
+		}
+		.form{
+			padding: 30px !important;
+		}
+		.Message{
+			height: 40px !important;
+		}
